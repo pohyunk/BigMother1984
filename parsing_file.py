@@ -9,7 +9,7 @@ def is_defined(name, val):
             print("!!!",def_list[name], val)
             return True
         else:
-            print("???",def_list[name], val)            
+            print("???",def_list[name], val)
             return False
     else:
         return False
